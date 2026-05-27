@@ -2,65 +2,60 @@
 using Crn_Api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Crn_Api.Repositories;
-
-public class ProductRepository : IProductRepository
+namespace Crn_Api.Repositories
 {
-    private readonly ApplicationDbContext _context;
-
-    public ProductRepository(ApplicationDbContext context)
+    public class ProductRepository : IProductRepository
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public async Task<IEnumerable<Product>> GetAllAsync()
-    {
-        return await _context.Products.ToListAsync();
-    }
+        public ProductRepository(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-    public async Task<Product?> GetByIdAsync(int id)
-    {
-        return await _context.Products.FindAsync(id);
-    }
+        public async Task<IEnumerable<Product>> GetAllAsync()
+        {
+            return await _context.Products.ToListAsync();
+        }
 
-    public async Task<Product> AddAsync(Product product)
-    {
-        product.CreatedOn = DateTime.Now;
+        public async Task<Product?> GetByIdAsync(int id)
+        {
+            return await _context.Products.FindAsync(id);
+        }
 
-        _context.Products.Add(product);
+        public async Task<Product> AddAsync(Product product)
+        {
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
 
-        await _context.SaveChangesAsync();
+        public async Task<Product?> UpdateAsync(Product product)
+        {
+            var existingProduct = await _context.Products.FindAsync(product.Id);
 
-        return product;
-    }
+            if (existingProduct == null)
+                return null;
 
-    public async Task<Product?> UpdateAsync(int id, Product product)
-    {
-        var existingProduct = await _context.Products.FindAsync(id);
+            existingProduct.Name = product.Name;
+            existingProduct.Price = product.Price;
 
-        if (existingProduct == null)
-            return null;
+            await _context.SaveChangesAsync();
 
-        existingProduct.ProductName = product.ProductName;
-        existingProduct.ModifiedBy = product.ModifiedBy;
-        existingProduct.ModifiedOn = DateTime.Now;
+            return existingProduct;
+        }
 
-        await _context.SaveChangesAsync();
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
 
-        return existingProduct;
-    }
+            if (product == null)
+                return false;
 
-    public async Task<bool> DeleteAsync(int id)
-    {
-        var product = await _context.Products.FindAsync(id);
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
 
-        if (product == null)
-            return false;
-
-        _context.Products.Remove(product);
-
-        await _context.SaveChangesAsync();
-
-        return true;
+            return true;
+        }
     }
 }

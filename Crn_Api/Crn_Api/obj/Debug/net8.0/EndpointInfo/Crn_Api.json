@@ -44,44 +44,10 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Products/{id}": {
-      "get": {
-        "tags": [
-          "Products"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       },
       "put": {
         "tags": [
           "Products"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -102,6 +68,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/{id}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -227,6 +216,14 @@
               "$ref": "#/components/schemas/Item"
             },
             "nullable": true
+          },
+          "name": {
+            "nullable": true,
+            "readOnly": true
+          },
+          "price": {
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false

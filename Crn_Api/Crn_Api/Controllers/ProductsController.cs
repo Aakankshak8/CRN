@@ -2,65 +2,77 @@
 using Crn_Api.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Crn_Api.Controllers;
-
-[Route("api/[controller]")]
-[ApiController]
-public class ProductsController : ControllerBase
+namespace Crn_Api.Controllers
 {
-    private readonly IProductRepository _repository;
-
-    public ProductsController(IProductRepository repository)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductsController : ControllerBase
     {
-        _repository = repository;
-    }
+        private readonly IProductRepository _repository;
 
-    [HttpGet]
-    public async Task<IActionResult> GetAllProducts()
-    {
-        var products = await _repository.GetAllAsync();
+        public ProductsController(IProductRepository repository)
+        {
+            _repository = repository;
+        }
 
-        return Ok(products);
-    }
+        // GET: api/products
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var products = await _repository.GetAllAsync();
 
-    [HttpGet("{id}")]
-    public async Task<IActionResult> GetProductById(int id)
-    {
-        var product = await _repository.GetByIdAsync(id);
+            return Ok(products);
+        }
 
-        if (product == null)
-            return NotFound();
+        // GET: api/products/1
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var product = await _repository.GetByIdAsync(id);
 
-        return Ok(product);
-    }
+            if (product == null)
+            {
+                return NotFound();
+            }
 
-    [HttpPost]
-    public async Task<IActionResult> CreateProduct(Product product)
-    {
-        var createdProduct = await _repository.AddAsync(product);
+            return Ok(product);
+        }
 
-        return Ok(createdProduct);
-    }
+        // POST: api/products
+        [HttpPost]
+        public async Task<IActionResult> Add(Product product)
+        {
+            var newProduct = await _repository.AddAsync(product);
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateProduct(int id, Product product)
-    {
-        var updatedProduct = await _repository.UpdateAsync(id, product);
+            return Ok(newProduct);
+        }
 
-        if (updatedProduct == null)
-            return NotFound();
+        // PUT: api/products
+        [HttpPut]
+        public async Task<IActionResult> Update(Product product)
+        {
+            var updatedProduct = await _repository.UpdateAsync(product);
 
-        return Ok(updatedProduct);
-    }
+            if (updatedProduct == null)
+            {
+                return NotFound();
+            }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteProduct(int id)
-    {
-        var deleted = await _repository.DeleteAsync(id);
+            return Ok(updatedProduct);
+        }
 
-        if (!deleted)
-            return NotFound();
+        // DELETE: api/products/1
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var deleted = await _repository.DeleteAsync(id);
 
-        return Ok("Product deleted successfully");
+            if (!deleted)
+            {
+                return NotFound();
+            }
+
+            return Ok("Product Deleted Successfully");
+        }
     }
 }

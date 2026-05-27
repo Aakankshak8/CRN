@@ -1,18 +1,24 @@
-﻿namespace Crn_Api.Models;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Product
+namespace Crn_Api.Models
 {
-    public int Id { get; set; }
+    public class Product
+    {
+        public int Id { get; set; }
 
-    public string ProductName { get; set; }
+        [Required]
+        public string ProductName { get; set; } = string.Empty;
 
-    public string CreatedBy { get; set; }
+        [Required]
+        public decimal Price { get; set; }
 
-    public DateTime CreatedOn { get; set; }
+        [Required]
+        public string CreatedBy { get; set; } = string.Empty;
 
-    public string? ModifiedBy { get; set; }
+        public DateTime CreatedOn { get; set; } = DateTime.Now;
 
-    public DateTime? ModifiedOn { get; set; }
+        public string? ModifiedBy { get; set; }
 
-    public ICollection<Item>? Items { get; set; }
+        public DateTime? ModifiedOn { get; set; }
+    }
 }

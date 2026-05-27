@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crn_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dc3d53f8372e6634f45501fc7db5ac2ccfad9f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crn_Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crn_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

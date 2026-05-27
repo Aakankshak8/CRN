@@ -1,16 +1,17 @@
 ﻿using Crn_Api.Models;
 
-namespace Crn_Api.Repositories;
-
-public interface IProductRepository
+namespace Crn_Api.Repositories
 {
-    Task<IEnumerable<Product>> GetAllAsync();
+    public interface IProductRepository
+    {
+        Task<IEnumerable<Product>> GetAllAsync();
 
-    Task<Product?> GetByIdAsync(int id);
+        Task<Product?> GetByIdAsync(int id);
 
-    Task<Product> AddAsync(Product product);
+        Task<Product> AddAsync(Product product);
 
-    Task<Product?> UpdateAsync(int id, Product product);
+        Task<Product?> UpdateAsync(Product product);
 
-    Task<bool> DeleteAsync(int id);
+        Task<bool> DeleteAsync(int id);
+    }
 }
