@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\.Net\\Crn\\Crn_Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,36 +51,44 @@
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\middleware\\namespace crn_api.middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\middleware\\namespace crn_api.middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\migrations\\20260526181022_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\migrations\\20260526181022_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\crn_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\crn_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\migrations\\20260527133735_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\migrations\\20260527133735_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|d:\\.net\\crn\\crn_api\\crn_api\\migrations\\20260527135910_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A548D84-24AA-4216-88E0-0A47E0238C32}|Crn_Api\\Crn_Api.csproj|solutionrelative:crn_api\\migrations\\20260527135910_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,62 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Crn_Api\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:18:28.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Crn_Api\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:17:30.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Program.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Program.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Program.cs",
-              "RelativeToolTip": "Crn_Api\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:08:14.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\DTOs\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\DTOs\\ProductDto.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\DTOs\\ProductDto.cs",
-              "RelativeToolTip": "Crn_Api\\DTOs\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T04:34:58.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Crn_Api\\Services\\ProductService.cs",
@@ -129,79 +110,73 @@
               "RelativeToolTip": "Crn_Api\\Services\\ProductService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T04:58:00.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T04:58:00.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\WeatherForecast.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\WeatherForecast.cs",
-              "RelativeToolTip": "Crn_Api\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Services\\TokenService.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Services\\TokenService.cs",
+              "RelativeToolTip": "Crn_Api\\Services\\TokenService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:05:36.879Z"
+              "WhenOpened": "2026-05-27T14:22:11.463Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Program.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Program.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Program.cs",
+              "RelativeToolTip": "Crn_Api\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:08:14.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Crn_Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:20:31.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Crn_Api\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:18:28.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Crn_Api\\Models\\Product.cs",
               "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Product.cs",
               "RelativeToolTip": "Crn_Api\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T17:58:18.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Models\\Item.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Item.cs",
-              "RelativeToolTip": "Crn_Api\\Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:00:23.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Crn_Api\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:20:31.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20260526181022_InitialCreate.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260526181022_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Migrations\\20260526181022_InitialCreate.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260526181022_InitialCreate.cs",
-              "RelativeToolTip": "Crn_Api\\Migrations\\20260526181022_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:10:23.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "ProductValidator.cs",
               "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Validators\\ProductValidator.cs",
               "RelativeDocumentMoniker": "Crn_Api\\Validators\\ProductValidator.cs",
@@ -213,31 +188,181 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Crn_Api\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Crn_Api\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Crn_Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:06:52.841Z"
+              "WhenOpened": "2026-05-27T13:54:40.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Crn_Api\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:17:30.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Models\\User.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\User.cs",
+              "RelativeToolTip": "Crn_Api\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:52:12.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Services\\JwtService.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Services\\JwtService.cs",
+              "RelativeToolTip": "Crn_Api\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:53:47.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\appsettings.json",
               "RelativeDocumentMoniker": "Crn_Api\\appsettings.json",
               "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\appsettings.json",
               "RelativeToolTip": "Crn_Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-26T18:07:34.284Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Models\\Item.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Models\\Item.cs",
+              "RelativeToolTip": "Crn_Api\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:00:23.334Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Crn_Api\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:21:08.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Crn_Api\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T04:34:58.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Crn_Api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:06:52.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Crn_Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:08:00.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "namespace Crn_Api.Middleware.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Middleware\\namespace Crn_Api.Middleware.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Middleware\\namespace Crn_Api.Middleware.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Middleware\\namespace Crn_Api.Middleware.cs",
+              "RelativeToolTip": "Crn_Api\\Middleware\\namespace Crn_Api.Middleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:10:59.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260527133735_InitialCreate.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260527133735_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Migrations\\20260527133735_InitialCreate.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260527133735_InitialCreate.cs",
+              "RelativeToolTip": "Crn_Api\\Migrations\\20260527133735_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:37:35.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260527135910_AddUserTable.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260527135910_AddUserTable.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\Migrations\\20260527135910_AddUserTable.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Migrations\\20260527135910_AddUserTable.cs",
+              "RelativeToolTip": "Crn_Api\\Migrations\\20260527135910_AddUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:59:11.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Crn_Api\\WeatherForecast.cs",
+              "ToolTip": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\WeatherForecast.cs",
+              "RelativeToolTip": "Crn_Api\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T05:05:36.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Crn_Api.csproj",
               "DocumentMoniker": "D:\\.Net\\Crn\\Crn_Api\\Crn_Api\\Crn_Api.csproj",
               "RelativeDocumentMoniker": "Crn_Api\\Crn_Api.csproj",

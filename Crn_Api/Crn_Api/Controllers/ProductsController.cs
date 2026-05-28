@@ -15,64 +15,48 @@ namespace Crn_Api.Controllers
             _repository = repository;
         }
 
-        // GET: api/products
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var products = await _repository.GetAllAsync();
-
             return Ok(products);
         }
 
-        // GET: api/products/1
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var product = await _repository.GetByIdAsync(id);
 
             if (product == null)
-            {
                 return NotFound();
-            }
 
             return Ok(product);
         }
 
-        // POST: api/products
         [HttpPost]
         public async Task<IActionResult> Add(Product product)
         {
-            var newProduct = await _repository.AddAsync(product);
-
-            return Ok(newProduct);
+            await _repository.AddAsync(product);
+            return Ok(product);
         }
 
-        // PUT: api/products
-        [HttpPut]
-        public async Task<IActionResult> Update(Product product)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, Product product)
         {
-            var updatedProduct = await _repository.UpdateAsync(product);
+            if (id != product.Id)
+                return BadRequest();
 
-            if (updatedProduct == null)
-            {
-                return NotFound();
-            }
+            await _repository.UpdateAsync(product);
 
-            return Ok(updatedProduct);
+            return Ok(product);
         }
 
-        // DELETE: api/products/1
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var deleted = await _repository.DeleteAsync(id);
+            await _repository.DeleteAsync(id);
 
-            if (!deleted)
-            {
-                return NotFound();
-            }
-
-            return Ok("Product Deleted Successfully");
+            return Ok("Deleted Successfully");
         }
     }
 }

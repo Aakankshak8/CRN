@@ -37,7 +37,7 @@ namespace Crn_Api.Repositories
             if (existingProduct == null)
                 return null;
 
-            existingProduct.Name = product.Name;
+            existingProduct.ProductName = product.ProductName;
             existingProduct.Price = product.Price;
 
             await _context.SaveChangesAsync();
